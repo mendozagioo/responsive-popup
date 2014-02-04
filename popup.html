@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Popup</title>
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/popup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>This is all my page</h1>
+    <p>Text here</p>
+    <p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>Text here</p>
+    <p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>Text here</p>
+    <p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>Text here</p>
+    <p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </p>
+    <button class="open_popup">Open the popup</button>
+    <div class="popup mfp-hide">
+      <h1>This is a header</h1>
+      <p>This is my popup and I want to put some text to try it</p>
+      <p>Text here</p>
+      <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p>
+      <p>Text here</p>
+      <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p>
+      <p>Text here</p>
+      <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p>
+      <p>Text here</p>
+      <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p>
+      <p>Text here</p>
+      <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </p>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $('.open_popup').magnificPopup({
+          removalDelay: 300,
+          mainClass: 'mfp-fade',
+          items: {
+            src: '.popup',
+            type: 'inline'
+          },
+          closeBtnInside: true
+        });
+      });
+    </script>
+  </body>
+</html>
